@@ -105,6 +105,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text('Welcome to Mythri Uma!', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 8),
+            const Text('This is a sample Flutter application.', style: TextStyle(fontSize: 16)),
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
